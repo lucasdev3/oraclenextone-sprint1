@@ -106,6 +106,8 @@ span {
 	width: 50vw;
 	padding-left: 15px;
 	word-break: break-word;
+	margin-top: 1rem;
+	
 }
 
 h2 {
@@ -116,6 +118,22 @@ p {
 	color: white;
 }
 
+#content-history p{
+	color: yellow;
+	padding-top: 1rem;
+}
+
 #footer {
-	height: 6vh;
+	height: 12vh;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	vertical-align: auto;
+	border-top: 1px solid rgb(0, 0, 0);
+	margin-top: 1rem;
+}
+
+#footer span {
+	color: rgb(0, 0, 0);
 }

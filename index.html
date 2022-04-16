@@ -33,28 +33,32 @@
 <body>
     <div class="container">
         <header class="d-flex flex-wrap justify-content-around py-3 mb-4 border-bottom" id="header">
-            <a href="/Sprint1"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
-                <span class="fs-1">LucasDev3</span>
-            </a>
-            <ul class="nav nav-pills" id="menu">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="https://www.linkedin.com/in/lucas-souza-478a031ab/" target="_blank"
-                        class="nav-link">LinkedIn</a></li>
-                <li class="nav-item"><a href="https://github.com/lucasdev3" target="_blank" class="nav-link">GitHub</a>
-                </li>
-            </ul>
+            <div id="titulo">
+                <a href="/Sprint1"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                    <span class="fs-1">LucasDev3</span>
+                </a>
+            </div>
+            <div id="div-menu">
+                <ul class="nav nav-pills" id="menu">
+                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/lucas-souza-478a031ab/" target="_blank"
+                            class="nav-link">LinkedIn</a></li>
+                    <li class="nav-item"><a href="https://github.com/lucasdev3" target="_blank" class="nav-link">GitHub</a>
+                    </li>
+                </ul>
+            </div>
         </header>
     </div>
     <div class="container">
         <div class="container-main">
 
-            <div>
+            <div class="input-button-copy">
                 <label for="frase">Informe a frase</label>
-                <input type="text" name="frase" id="frase">
+                <textarea name="frase" id="frase" cols="120" rows="10" placeholder="Digite aqui o seu texto"></textarea>
                 <button id="copia">Copiar Texto Criptografado</button>
             </div>
-            <div class="button">
+            <div class="div-button">
                 <button class="button" id="criptografia">
                     <span>Criptografar</span>
                     <div class="liquid"></div>
@@ -67,7 +71,6 @@
             <div id="historico">
                 <h2>Histórico de Solicitações</h2>
                 <div id="content-history">
-
                 </div>
             </div>
         </div>
